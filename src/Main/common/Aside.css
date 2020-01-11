@@ -1,0 +1,41 @@
+
+aside {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 200px;
+
+    padding: 10px 0 0 10px;
+    box-sizing: border-box;
+
+    background-color: #dcdde1;
+}
+
+.category {
+    margin: 10px 0 0 0;
+}
+.categoryHead, label.add {
+    font-size: 1.2em;
+}
+.categoryBody {
+    list-style: none;
+    padding: 5px 0 0 10px;
+    margin: 0 0 0 8px;
+    border-left: 1px solid #718093;
+}
+.categoryBody li {
+    padding: 2px 0 0 0;
+}
+
+aside label:hover, .category label:hover, .categoryBody li:hover {
+    background-image: linear-gradient(to left, #dcdde1, white);
+}
+
+i { margin: 0 7px 0 3px;}
+label {
+    display: block;
+}
+
+.add {
+
+}

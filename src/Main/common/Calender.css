@@ -1,0 +1,82 @@
+#main {
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    height: 100%;
+}
+.control {
+    display: flex;
+    justify-content: space-between;
+}
+.controlDate {
+    padding-left: 10px;
+}
+.control i {
+    font-size: 40px;
+    padding: 0 7px 0 7px;
+}
+.control i:hover {
+    background-color: #7f8fa6;
+}
+.control label {
+    display: inline;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.head {
+    display: flex;
+    justify-content: space-around;
+    flex: 0 0 auto;
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid black;
+}
+
+.head li {
+    text-decoration: none;
+    list-style: none;
+    flex: 1 1;
+
+    padding: 5px 5px 5px 10px;
+    text-align: start;
+    font-size: 1em;
+    color: #7f8fa6;
+}
+
+.body {
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    align-content: stretch;
+}
+.week {
+    display: flex;
+    height: 20%;
+
+    border-bottom: 1px solid black;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    padding-left: 10px;
+}
+.dayGray {background-color: #353b48;}
+.dayHead {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3em;
+    color: #7f8fa6;
+}
+.daybody {
+    display: flex;
+    flex-direction: column;
+}
+
+.dayBody input {
+    flex: 0 0 0;
+    display: none;
+}
